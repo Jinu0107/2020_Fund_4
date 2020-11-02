@@ -1,0 +1,1011 @@
+@font-face {
+    src: url('/안진우_제출본/font/NotoSansKR-Thin.otf');
+    font-family: 'noto';
+    font-weight: 200;
+}
+
+@font-face {
+    src: url('/안진우_제출본/font/NotoSansKR-Light.otf');
+    font-family: 'noto';
+    font-weight: 300;
+}
+
+@font-face {
+    src: url('/안진우_제출본/font/NotoSansKR-Regular.otf');
+    font-family: 'noto';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url('/안진우_제출본/font/NotoSansKR-Medium.otf');
+    font-family: 'noto';
+    font-weight: 500;
+}
+
+@font-face {
+    src: url('/안진우_제출본/font/NotoSansKR-Bold.otf');
+    font-family: 'noto';
+    font-weight: 600;
+}
+
+@font-face {
+    src: url('/안진우_제출본/font/NotoSansKR-Black.otf');
+    font-family: 'noto';
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'noto';
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex_c {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_a_c {
+    align-items: center;
+}
+
+.flex_b {
+    justify-content: space-between;
+}
+
+.flex_d {
+    flex-direction: column;
+}
+
+.flex_e {
+    justify-content: flex-end;
+}
+
+.font_10 {
+    font-size: 10px;
+}
+
+.font_11 {
+    font-size: 11px;
+}
+
+.font_12 {
+    font-size: 12px;
+}
+
+.font_13 {
+    font-size: 13px;
+}
+
+.font_14 {
+    font-size: 14px;
+}
+
+.font_15 {
+    font-size: 15px;
+}
+
+.font_16 {
+    font-size: 16px;
+}
+
+.font_17 {
+    font-size: 17px;
+}
+
+.font_18 {
+    font-size: 18px;
+}
+
+.font_19 {
+    font-size: 19px;
+}
+
+.font_20 {
+    font-size: 20px;
+}
+
+.font_21 {
+    font-size: 21px;
+}
+
+.font_22 {
+    font-size: 22px;
+}
+
+.color_000 {
+    color: #000;
+}
+
+.color_333 {
+    color: #333;
+}
+
+.color_555 {
+    color: #555;
+}
+
+.color_777 {
+    color: #777;
+}
+
+.color_999 {
+    color: #999;
+}
+
+.color_fff {
+    color: #fff;
+}
+
+.color_fffa {
+    color: #fffa;
+}
+
+.color_f7 {
+    color: #f7f7f7;
+}
+
+.color_blue {
+    color: #1588a9;
+}
+
+.color_dark {
+    color: #192937;
+}
+
+.fw_200 {
+    font-weight: 200;
+}
+
+.fw_300 {
+    font-weight: 300;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.bg_fff {
+    background-color: #fff;
+}
+
+.bg_000 {
+    background-color: #000;
+}
+
+.bg_f7 {
+    background-color: #f7f7f7;
+}
+
+.bg_blue {
+    background-color: #1588a9;
+}
+
+.bg_dark {
+    background-color: #192937;
+}
+
+.bg_yellow {
+    background-color: #e2aa14;
+}
+
+.m_t_10 {
+    margin-top: 10px;
+}
+
+.m_t_20 {
+    margin-top: 20px;
+}
+
+.m_t_30 {
+    margin-top: 30px;
+}
+
+.m_t_40 {
+    margin-top: 40px;
+}
+
+.m_t_50 {
+    margin-top: 50px;
+}
+
+.m_t_60 {
+    margin-top: 60px;
+}
+
+.m_t_70 {
+    margin-top: 70px;
+}
+
+.m_t_80 {
+    margin-top: 80px;
+}
+
+.m_t_90 {
+    margin-top: 90px;
+}
+
+.m_t_100 {
+    margin-top: 100px;
+}
+
+.m_b_10 {
+    margin-bottom: 10px;
+}
+
+.m_b_20 {
+    margin-bottom: 20px;
+}
+
+.m_b_30 {
+    margin-bottom: 30px;
+}
+
+.m_b_40 {
+    margin-bottom: 40px;
+}
+
+.m_b_50 {
+    margin-bottom: 50px;
+}
+
+.m_b_60 {
+    margin-bottom: 60px;
+}
+
+.m_b_70 {
+    margin-bottom: 70px;
+}
+
+.m_b_80 {
+    margin-bottom: 80px;
+}
+
+.m_b_90 {
+    margin-bottom: 90px;
+}
+
+.m_b_100 {
+    margin-bottom: 100px;
+}
+
+.m_l_10 {
+    margin-left: 10px;
+}
+
+.m_l_20 {
+    margin-left: 20px;
+}
+
+.m_l_30 {
+    margin-left: 30px;
+}
+
+.m_l_40 {
+    margin-left: 40px;
+}
+
+.m_l_50 {
+    margin-left: 50px;
+}
+
+.m_l_60 {
+    margin-left: 60px;
+}
+
+.m_l_70 {
+    margin-left: 70px;
+}
+
+.m_l_80 {
+    margin-left: 80px;
+}
+
+.m_l_90 {
+    margin-left: 90px;
+}
+
+.m_l_100 {
+    margin-left: 100px;
+}
+
+.m_r_10 {
+    margin-right: 10px;
+}
+
+.m_r_20 {
+    margin-right: 20px;
+}
+
+.m_r_30 {
+    margin-right: 30px;
+}
+
+.m_r_40 {
+    margin-right: 40px;
+}
+
+.m_r_50 {
+    margin-right: 50px;
+}
+
+.m_r_60 {
+    margin-right: 60px;
+}
+
+.m_r_70 {
+    margin-right: 70px;
+}
+
+.m_r_80 {
+    margin-right: 80px;
+}
+
+.m_r_90 {
+    margin-right: 90px;
+}
+
+.m_r_100 {
+    margin-right: 100px;
+}
+
+.p_x_10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p_x_20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.p_x_30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.p_x_40 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.p_x_50 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.p_x_60 {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.p_x_70 {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.p_x_80 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.p_x_90 {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.p_x_100 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.p_y_10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.p_y_20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.p_y_30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.p_y_40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.p_y_50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.p_y_60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.p_y_70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.p_y_80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.p_y_90 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.p_y_100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text_over {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/* 기본설정 끝? */
+
+header {
+    z-index: 500;
+    background-color: #fff;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 4px 0px 5px 0px #0002;
+    padding: 80px 40px;
+}
+
+header .nav {
+    width: 100%;
+    height: 200px;
+}
+
+header .nav>div {
+    cursor: pointer;
+    transition: .5s;
+}
+
+header .nav>div.on {
+    color: #000;
+    padding-left: 10px;
+}
+
+header .nav>div:hover {
+    color: #000;
+    padding-left: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 180px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #777;
+    padding: 30px 60px;
+}
+
+.side_bar {
+    width: 80px;
+    height: 100vh;
+    position: fixed;
+    background-color: #192937;
+    top: 0;
+    right: 0;
+}
+
+.side_bar .side_main {
+    background-color: #1588a9;
+    width: 100%;
+    height: 280px;
+    cursor: pointer;
+}
+
+.side_bar .side_sub {
+    background-color: #192937;
+    width: 100%;
+    height: 85px;
+    border-bottom: 1px solid #777;
+    cursor: pointer;
+}
+
+.side_bar>*:hover {
+    filter: brightness(110%);
+}
+
+.main_container {
+    width: calc(100vw - 330px);
+    position: relative;
+    margin-left: 250px
+}
+
+.main_container .section {
+    position: absolute;
+    display: none;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.main {
+    background-color: #f7f7f7;
+}
+
+.main>.visual {
+    width: 100%;
+    height: 825px;
+    position: relative;
+}
+
+.main .visual>img {
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main .visual .text {
+    position: absolute;
+    z-index: 30;
+    top: 255px;
+    left: 60px;
+}
+
+.main .visual .main_text {
+    font-size: 52px;
+}
+
+.main .main_fund_list {
+    width: 1200px;
+    height: 600px;
+    margin-top: -300px;
+}
+
+.main .main_fund_list>div {
+    width: 100%;
+    height: 50%;
+}
+
+.main .item {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.main .item:hover>img {
+    transform: scale(1.1);
+}
+
+.main .item:hover .color_fffa {
+    color: #fff;
+}
+
+.main .item:hover .color_777 {
+    color: #000;
+}
+
+.main .item * {
+    transition: .5s;
+}
+
+.main .item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main .item>.item_text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.main .item .main_percent {
+    font-size: 25px;
+}
+
+.main .item .bar {
+    width: 0;
+    height: 1px;
+}
+
+.login_container {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.login .login_box {
+    width: 50%;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 4px 0px 10px 0px #0003;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.login .login_main {
+    padding: 30px 40px;
+    width: 95%;
+    height: 100%;
+}
+
+.login .login_sub {
+    background-color: #1588a9;
+    width: 5%;
+    height: 100%;
+}
+
+.login .login_main_text {
+    font-size: 30px
+}
+
+.login .input_group {
+    margin: 10px 0px;
+}
+
+.login input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px 0px;
+    transition: .5s;
+}
+
+.login input:focus {
+    padding: 15px 0px;
+    border-color: #1588a9;
+}
+
+.login .login_btn {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: #1588a9;
+    cursor: pointer;
+}
+
+.login .login_btn:hover {
+    filter: brightness(110%);
+}
+
+.reg_container {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.fund_register .reg_box {
+    width: 50%;
+    height: 600px;
+    background-color: #fff;
+    box-shadow: 4px 0px 10px 0px #0003;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.fund_register .reg_main {
+    padding: 30px 40px;
+    width: 95%;
+    height: 100%;
+}
+
+.fund_register .reg_sub {
+    background-color: #1588a9;
+    width: 5%;
+    height: 100%;
+}
+
+.fund_register .reg_num {
+    font-size: 30px
+}
+
+.fund_register .input_group {
+    margin: 10px 0px;
+}
+
+.fund_register input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px 0px;
+    transition: .5s;
+}
+
+.fund_register input:focus {
+    padding: 15px 0px;
+    border-color: #1588a9;
+}
+
+.fund_register .reg_btn {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: #1588a9;
+    cursor: pointer;
+}
+
+.fund_register .reg_btn:hover {
+    filter: brightness(110%);
+}
+
+.fund_view .item_list {
+    width: 1140px;
+    margin-top: 50px;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.fund_view .item {
+    width: 350px;
+    height: 400px;
+    position: relative;
+}
+
+.fund_view .item>img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px
+}
+
+.fund_view .view_num {
+    font-size: 13px;
+    color: #fff;
+    background-color: #1588a9;
+    border-radius: 5px;
+    padding: 3px 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.fund_view .view_percent {}
+
+.fund_view .view_btn {
+    font-size: 13px;
+    background-color: #1588a9;
+    color: #fff;
+    padding: 3px 15px;
+    border-radius: 3px;
+}
+
+.fund_view .view_btn.on {
+    cursor: pointer;
+}
+
+.fund_view .view_btn.on:hover {
+    filter: brightness(110%);
+}
+
+.fund_view .bar {
+    width: 0;
+    height: 3px;
+    background-color: #1588a9;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.fund_view .view_pagination_group {
+    margin: 60px 0px;
+}
+
+.fund_view .view_pagination_group>.num {
+    margin: 0 10px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.fund_view .view_pagination_group>.num:hover {
+    color: #1588a9;
+}
+
+.fund_view .view_pagination_group>.num.on {
+    color: #1588a9;
+}
+
+.fund_view .view_pagination_group>.num.disable {
+    color: #999;
+    cursor: default;
+}
+
+.fund_view .view_pagination_group>.num.disable:hover {
+    color: #999;
+}
+
+.popup {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0007;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.popup .inner {
+    width: 40%;
+    height: 800px;
+    background-color: #fff;
+    box-shadow: 4px 0px 10px 0px #0003;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.popup .popup_main {
+    padding: 50px 70px;
+    width: 95%;
+    height: 100%;
+}
+
+.popup .popup_sub {
+    background-color: #1588a9;
+    width: 5%;
+    height: 100%;
+}
+
+.popup .popup_num {
+    font-size: 30px
+}
+
+.popup .input_group {
+    margin: 10px 0px;
+}
+
+.popup input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px 0px;
+    transition: .5s;
+}
+
+.popup input:focus {
+    padding: 15px 0px;
+    border-color: #1588a9;
+}
+
+.popup .popup_btn {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: #1588a9;
+    cursor: pointer;
+}
+
+.popup .popup_btn:hover {
+    filter: brightness(110%);
+}
+
+.popup .close {
+    color: #fff;
+    cursor: pointer;
+}
+
+.in_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table {
+    border-bottom: 1px solid #e7e7e7;
+    table-layout: fixed;
+}
+
+.table th,
+.table td {
+    text-align: center;
+}
+
+.table td {
+    padding: 20px 10px;
+}
+
+.table .bar {
+    width: 0;
+    height: 3px;
+    background-color: #1588a9;
+    border-radius: 3px
+}
+
+.table .in_btn {
+    color: #fff;
+    background-color: #1588a9;
+    font-size: 13px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.table .in_btn:hover {
+    filter: brightness(110%);
+}
+
+.investor_list .in_pagination_group {
+    margin: 60px 0px;
+}
+
+.investor_list .in_pagination_group>.num {
+    margin: 0 10px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.investor_list .in_pagination_group>.num:hover {
+    color: #1588a9;
+}
+
+.investor_list .in_pagination_group>.num.on {
+    color: #1588a9;
+}
+
+.investor_list .in_pagination_group>.num.disable {
+    color: #999;
+    cursor: default;
+}
+
+.investor_list .in_pagination_group>.num.disable:hover {
+    color: #999;
+}
